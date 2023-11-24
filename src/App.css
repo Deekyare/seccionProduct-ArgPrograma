@@ -1,0 +1,54 @@
+body,
+html {
+  font-size: large;
+}
+
+.container {
+  display: flex;
+  margin: 30px;
+  gap: 30px;
+  align-items: start;
+  max-width: -webkit-fill-available;
+}
+
+
+.img-details img {
+  width: 50%;
+}
+
+.product_info span {
+  display: block;
+  margin-bottom: 10px;
+}
+.product_info a,
+.precio {
+  color: #fc5959;
+}
+
+.precio,
+.monto-viejo {
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+.monto-viejo {
+  text-decoration: line-through;
+}
+
+.cantidad {
+  width: 40px;
+}
+
+.img-list {
+  margin: 10px 0 0 -15px;
+  width: 100%;
+  display: inline-block;
+}
+.img-list img {
+  width: 100px;
+}
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
